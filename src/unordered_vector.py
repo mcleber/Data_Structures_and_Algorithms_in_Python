@@ -4,7 +4,7 @@
 # Unordered  Vectors
 ##
 '''
-Unordered vectors are a type of data structure that stores elements without 
+Unordered Vectors are a type of data structure that stores elements without 
 any specific order or sorting.
 
 Operations
