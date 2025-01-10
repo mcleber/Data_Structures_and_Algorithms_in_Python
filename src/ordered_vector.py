@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 ##
-# Ordered  Vectors
+# Ordered Vectors
 ##
 '''
 An Ordered Vector is a data structure where the elements are stored in an 
@@ -16,22 +16,59 @@ Operations
 import numpy as np
 
 class OrderedVector:
+    """
+    A class that represents an ordered vector (or array), where the elements
+    are stored in sorted order.
+
+    Attributes:
+    capacity (int): The maximum number of elements the vector can hold.
+    last_position (int): The index of the last element in the vector.
+    values (numpy.ndarray): The array that holds the elements of the vector.
+
+    Methods:
+    __init__(capacity): Initializes the ordered vector with a given capacity.
+    print_test(): Prints all elements in the vector.
+    insert(value): Inserts a value into the vector in sorted order.
+    linear_search(value): Performs a linear search for a value in the vector.
+    binary_search(value): Performs a binary search for a value in the vector.
+    delete(value): Removes a value from the vector.
+    """
 
     def __init__(self, capacity):
+        """
+        Initializes an ordered vector with a given capacity.
+
+        Parameters:
+        capacity (int): The maximum capacity of the vector.
+        """
         self.capacity = capacity
         self.last_position = -1
         self.values = np.empty(self.capacity, dtype=int)
 
-    # Print - O(n)
     def print_test(self):
-        if (self.last_position == -1):
+        """
+        Prints all the elements in the ordered vector. If the vector is empty,
+        it will print a message indicating that.
+
+        Time Complexity: O(n), where n is the number of elements in the vector.
+        """
+        if self.last_position == -1:
             print("The vector is empty")
         else:
             for i in range(self.last_position + 1):
                 print(i, ' - ', self.values[i])
 
-    # Insertion - O(n)
     def insert(self, value):
+        """
+        Inserts a value into the ordered vector, maintaining the sorted order.
+
+        If the vector has reached its capacity, it prints a message and stops.
+
+        Parameters:
+        value (int): The value to be inserted into the vector.
+
+        Time Complexity: O(n), where n is the number of elements in the vector.
+        """
         if self.last_position == self.capacity - 1:
             print('Maximum capacity reached')
             return
@@ -52,8 +89,18 @@ class OrderedVector:
         self.values[position] = value
         self.last_position += 1
 
-    # Linear Search - O(n)
     def linear_search(self, value):
+        """
+        Performs a linear search to find the given value in the vector.
+
+        Parameters:
+        value (int): The value to search for.
+
+        Returns:
+        int: The index of the value if found, otherwise -1.
+
+        Time Complexity: O(n), where n is the number of elements in the vector.
+        """
         for i in range(self.last_position + 1):
             if self.values[i] > value:
                 return -1
@@ -62,8 +109,18 @@ class OrderedVector:
             if i == self.last_position:
                 return -1
 
-    # Binary Search - O(log n)
     def binary_search(self, value):
+        """
+        Performs a binary search to find the given value in the sorted vector.
+
+        Parameters:
+        value (int): The value to search for.
+
+        Returns:
+        int: The index of the value if found, otherwise -1.
+
+        Time Complexity: O(log n), where n is the number of elements in the vector.
+        """
         lower_limit = 0
         upper_limit = self.last_position
 
@@ -84,8 +141,18 @@ class OrderedVector:
                 else:
                     upper_limit = current_position - 1
 
-    # Removal - O(n)
     def delete(self, value):
+        """
+        Removes a value from the vector, if it exists.
+
+        Parameters:
+        value (int): The value to be removed from the vector.
+
+        Returns:
+        int: -1 if the value is not found, otherwise the vector is updated.
+
+        Time Complexity: O(n), where n is the number of elements in the vector.
+        """
         position = self.linear_search(value)
         if position == -1:
             return -1
