@@ -6,6 +6,7 @@ This is my study repository.
 
 * unordered vectors.
 * ordered vectors.
+* stacks.
 
 
 
