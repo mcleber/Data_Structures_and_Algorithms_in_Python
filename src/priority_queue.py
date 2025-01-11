@@ -70,6 +70,7 @@ class PriorityQueue:
 
         self.display_queue()
 
+
     def dequeue(self):
         """
         Removes and returns the element with the highest priority (last in the array).
