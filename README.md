@@ -8,6 +8,7 @@ This is my study repository.
 * ordered vectors.
 * stacks.
 * circular queue.
+* priority queue.
 
 
 
