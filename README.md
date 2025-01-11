@@ -9,7 +9,7 @@ This is my study repository.
 * stacks.
 * circular queue.
 * priority queue.
-
+* deque (double-ended queue).
 
 
 ## Link
