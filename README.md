@@ -10,6 +10,7 @@ This is my study repository.
 * circular queue.
 * priority queue.
 * deque (double-ended queue).
+* singly linked list.
 
 
 ## Link
