@@ -131,6 +131,8 @@ dll.insert_at_end(4)
 
 dll.show_forward()
 print(20 * '-')
+dll.show_backward()
+print(20 * '-')
 
 dll.remove_from_start()
 dll.remove_from_end()
