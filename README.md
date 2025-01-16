@@ -11,6 +11,7 @@ This is my study repository.
 * priority queue.
 * deque (double-ended queue).
 * singly linked list.
+* doubly linked list.
 
 
 ## Link
