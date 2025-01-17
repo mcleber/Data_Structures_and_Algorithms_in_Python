@@ -12,6 +12,7 @@ This is my study repository.
 * deque (double-ended queue).
 * singly linked list.
 * doubly linked list.
+* recursion.
 
 
 ## Link
