@@ -14,6 +14,7 @@ This is my study repository.
 * doubly linked list.
 * recursion.
 * bubble sort.
+* selection sort.
 
 
 ## Link
