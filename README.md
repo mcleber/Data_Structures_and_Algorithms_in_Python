@@ -13,6 +13,7 @@ This is my study repository.
 * singly linked list.
 * doubly linked list.
 * recursion.
+* bubble sort.
 
 
 ## Link
