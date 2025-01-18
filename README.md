@@ -15,7 +15,7 @@ This is my study repository.
 * recursion.
 * bubble sort.
 * selection sort.
-
+* insertion sort.
 
 ## Link
 
