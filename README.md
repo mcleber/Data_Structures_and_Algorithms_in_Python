@@ -18,6 +18,7 @@ This is my study repository.
 * insertion sort.
 * shell sort.
 * merge sort.
+* quick sort.
 
 ## Link
 
