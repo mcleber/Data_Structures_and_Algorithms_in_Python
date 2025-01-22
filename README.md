@@ -17,6 +17,7 @@ This is my study repository.
 * selection sort.
 * insertion sort.
 * shell sort.
+* merge sort.
 
 ## Link
 
