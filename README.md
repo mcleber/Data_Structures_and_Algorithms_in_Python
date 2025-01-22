@@ -16,6 +16,7 @@ This is my study repository.
 * bubble sort.
 * selection sort.
 * insertion sort.
+* shell sort.
 
 ## Link
 
