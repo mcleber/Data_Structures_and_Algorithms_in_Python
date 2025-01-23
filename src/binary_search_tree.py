@@ -26,6 +26,9 @@ class Node:
         print(self.value)
 
 
+# The left child of a node has a key smaller than its parent, and the right 
+# child of a node has a key greater than or equal to its parent.
+
 class BinarySearchTree:
     """
     Class that represents a Binary Search Tree (BST).
