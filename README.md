@@ -20,7 +20,7 @@ This is my study repository.
 * Merge Sort.
 * Quick Sort.
 * Binary Search Tree.
-* Graph (from Arad to Bucarest).
+* Graph (from Arad to Bucharest).
 
 ## Link
 

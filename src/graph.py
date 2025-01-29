@@ -9,7 +9,7 @@
 
 class Vertex:
     """
-    Class to represent a vertex in the graph.
+    Class to represent a vertex (city) in the graph.
     """
     def __init__(self, label):
         """
