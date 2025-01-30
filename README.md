@@ -23,6 +23,8 @@ This is my study repository.
 * Graph (From Arad to Bucharest).
 * Graph Depth-First Search (DFS).
 * Graph with Breadth-First Search (BFS).
+* Greedy Search Graph.
+
 
 ## Link
 
