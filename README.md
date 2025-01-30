@@ -24,6 +24,7 @@ This is my study repository.
 * Graph Depth-First Search (DFS).
 * Graph with Breadth-First Search (BFS).
 * Greedy Search Graph.
+* A* Search Graph.
 
 
 ## Link
