@@ -4,6 +4,9 @@
 # Dijkstra's Algorithm
 #
 # Shortest path using Dijkstra's algorithm
+#
+# Problem: From Arad to Bucharest
+# Source: Artificial Intelligence - Stuart Russell and Peter Norvig
 ##
 
 import numpy as np
