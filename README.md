@@ -25,6 +25,7 @@ This is my study repository.
 * Graph with Breadth-First Search (BFS).
 * Greedy Search Graph.
 * A* Search Graph.
+* Dijkstra's Algorithm.
 
 
 ## Link
