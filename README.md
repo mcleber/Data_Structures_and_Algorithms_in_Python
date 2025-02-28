@@ -2,7 +2,7 @@
 
 This is my study repository.
 
-## Repository content
+## Repository contents
 
 * Unordered Vectors.
 * Ordered Vectors.
